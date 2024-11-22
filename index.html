@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Image Captioning</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Particle container -->
+  <div id="particles-js"></div>
+
+  <div class="container">
+    <h1>AI Image Captioning</h1>
+    <p>Upload an image and generate a creative caption using AI!</p>
+    <form id="image-form">
+      <input type="file" id="image-input" accept="image/*" required>
+      <button type="submit">Generate Caption</button>
+    </form>
+    <div id="result">
+      <img id="preview" alt="Image preview will appear here">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
